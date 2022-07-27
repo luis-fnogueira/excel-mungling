@@ -4,3 +4,5 @@ lib
 lib64
 share
 **/__pycache__
+**/.xlsx
+annotations.txt

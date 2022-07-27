@@ -12,9 +12,3 @@ class MapValues(ABC):
         """
         file_list = glob.glob(f'{path}' + f'/*{extension}')
         return file_list
-
-
-if __name__ == "__main__":
-
-    file_list = glob.glob("/home/luis-felipe/Estudos/excel-mungling" + "/*.xlsx")
-    print(file_list)
